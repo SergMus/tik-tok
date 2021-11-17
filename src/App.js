@@ -1,24 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import React, { useState } from "react";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Header from "./components/Header";
+import TrendingFeed from "./pages/TrendingFeed/TrendingFeed";
+import User from "./pages/User/User";
+import TrendingSidebar from "./components/TrendingSidebar";
 
 function App() {
+  const [username, setUsername] = useState("Dave.xp");
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div className="App_container">
+        <Header />
+        <div className="container">
+          <TrendingSidebar />
+          <Routes>
+            <Route
+              path="/"
+              exact
+              element={<TrendingFeed setUsername={setUsername} />}
+            ></Route>
+            <Route
+              path="/user"
+              exact
+              element={<User username={username} />}
+            ></Route>
+          </Routes>
+        </div>
+      </div>
+    </Router>
   );
 }
 

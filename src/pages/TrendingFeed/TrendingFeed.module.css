@@ -1,0 +1,133 @@
+.trending_container {
+  padding: 24px 0;
+  margin-right: 24px;
+  width: 692px;
+  max-width: 692px;
+  height: 100%;
+}
+.content_wrapper {
+  border-bottom: 1px solid rgba(34, 90, 89, 0.2);
+  padding-bottom: 20px;
+  position: relative;
+  margin-top: 20px;
+}
+.spinner_box {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.avatar_tiktok_box {
+  width: 56px;
+  height: 56px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  border-radius: 50%;
+  float: left;
+}
+.avatar_image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.feed_item_content {
+  position: relative;
+  margin-left: 68px;
+}
+.author_info {
+  display: flex;
+  align-items: flex-start;
+}
+a {
+  text-decoration: none;
+}
+h3,
+h4 {
+  margin: 0;
+  padding: 0;
+  color: #000;
+}
+h3 {
+  margin-right: 4px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  margin-bottom: 0px;
+}
+h4 {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 0px;
+}
+.item_follow_wrapper {
+  position: absolute;
+  right: 0px;
+  top: 8px;
+}
+.item_follow_btn {
+  font-size: 14px;
+  line-height: 22px;
+  min-width: 88px;
+  padding: 0px 10px;
+  padding: 1px 6px;
+  font-weight: 600;
+  background: #fff;
+  border: 1px solid #fe2c55;
+  color: #fe2c55;
+  border-radius: 5px;
+}
+.item_follow_btn:hover {
+  background-color: rgba(254, 44, 85, 0.1);
+  cursor: pointer;
+}
+.video_caption {
+  font-size: 16px;
+  line-height: 22px;
+  color: rgb(18, 18, 18);
+  flex: 0 0 auto;
+  font-weight: normal;
+  margin-bottom: 0px;
+  word-break: break-word;
+  margin-right: 150px;
+}
+.soundtrack {
+  margin-top: 4px;
+  margin-bottom: 12px;
+  max-width: 524px;
+  overflow: hidden;
+  font-size: 16px;
+  color: #000;
+}
+.video_wrapper {
+  width: 336px;
+  height: 600px;
+  position: relative;
+}
+
+@media screen and (max-width: 768px) {
+  .trending_container {
+    margin-right: 0;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .feed_item_content {
+    margin-left: 0;
+  }
+  .video_container {
+    display: flex;
+    justify-content: center;
+  }
+  .video_wrapper {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+  }
+  .avatar_tiktok_box {
+    display: block;
+    margin-right: 10px;
+  }
+}

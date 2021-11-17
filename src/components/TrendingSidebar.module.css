@@ -1,0 +1,49 @@
+.sidebar_container {
+  flex: 0 0 356px !important;
+  padding-top: 20px;
+  /* position: fixed; */
+}
+.for_you {
+  padding: 10px;
+}
+.btn {
+  padding: 10px;
+  font-weight: bold;
+  font-size: 16px;
+}
+.btn:hover {
+  background-color: rgb(241, 240, 240);
+  transition: 0.2s ease;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.btns_line {
+  border: none;
+  border-top: 1px solid rgba(34, 90, 89, 0.2);
+  height: 1px;
+}
+.content_text {
+  padding: 20px 0;
+  color: rgba(34, 90, 89, 0.5);
+  font-size: 14px;
+}
+.login_button {
+  color: #fe2c55;
+  line-height: 45px;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  border: 1px solid #fe2c55;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.login_button:hover {
+  background-color: rgba(254, 44, 85, 0.1);
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .sidebar_container {
+    display: none;
+  }
+}
