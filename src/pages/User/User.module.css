@@ -161,7 +161,8 @@ h5 {
   justify-content: center;
   align-items: center;
   cursor: pointer;
-  border: 1px solid grey;
+  outline: none;
+  border: none;
   color: #04aa6d;
 }
 .pages:hover {

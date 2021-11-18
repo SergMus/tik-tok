@@ -147,7 +147,7 @@ const User = ({ username }) => {
                         style={{ maxWidth: "100%" }}
                         controls="controls"
                         autoPlay={false}
-                        src="https://v58.tiktokcdn.com/video/tos/useast2a/tos-useast2a-ve-0068c004/73522a2830684bf8aa05a596667e42da/?VExpiration=1637186620&VSignature=wk4lA0tPxnSP9ISRlNY3SQ&a=1233&br=2276&bt=1138&cd=0%7C0%7C1&ch=0&cr=0&cs=0&cv=1&dr=0&ds=3&er=&ft=wECRNFGnkag3-I&l=202111171603310101890722154206EDA5&lr=tiktok_m&mime_type=video_mp4&net=0&pl=0&qs=0&rc=anA3NWU6Zm94ODMzNzczM0ApOjw6Nzg5Njs4NzU0OGU1aWdyZmZncjRfNTBgLS1kMTZzczZfMjRhLy1gYGM2M2MtNjQ6Yw%3D%3D&vl=&vr="
+                        src="https://v58.tiktokcdn.com/video/tos/useast5/tos-useast5-pve-0068-tx/2edd3ceaf391477880d9789f5b0ab0be/?VExpiration=1637279421&VSignature=m9j35gst8mbLVTjLQoFONw&a=1233&br=1580&bt=790&cd=0%7C0%7C1&ch=0&cr=0&cs=0&cv=1&dr=0&ds=3&er=&ft=wECRNFGnkag3-I&l=20211118175000010223066035262C25FE&lr=tiktok_m&mime_type=video_mp4&net=0&pl=0&qs=0&rc=M3lsNDg6Zml5OTMzZzczNEApO2lmODQ7OTw5NzRnN2c6O2czZ3IwcjRfZC1gLS1kMS9zczRhMS1fLzFeYmMzLmA0XzE6Yw%3D%3D&vl=&vr="
                       ></video>
                       <div className={styles.views}>
                         <i
