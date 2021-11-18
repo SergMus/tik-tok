@@ -63,10 +63,6 @@ const User = ({ username }) => {
       </div>
     );
   } else {
-    console.log(user);
-    console.log(feed);
-    console.log(currentPage);
-
     return (
       <div className={styles.container}>
         <div className={styles.user_wrapper}>

@@ -203,6 +203,9 @@ h5 {
   .user_wrapper {
     padding-right: 0px;
   }
+  .header {
+    padding-left: 10px;
+  }
   .video_item {
     border: 1px solid orange;
     height: 260px;

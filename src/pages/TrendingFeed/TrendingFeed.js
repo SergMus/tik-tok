@@ -39,7 +39,6 @@ const TrendingFeed = ({ setUsername }) => {
       </div>
     );
   } else {
-    console.log(feed);
     return (
       <div className={styles.trending_container}>
         {feed.map((feed) => {

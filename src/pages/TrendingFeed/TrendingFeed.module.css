@@ -110,9 +110,18 @@ h4 {
 
 @media screen and (max-width: 768px) {
   .trending_container {
-    margin-right: 0;
+    margin-right: auto;
+    margin-left: auto;
     padding-left: 5px;
     padding-right: 5px;
+  }
+  .content_wrapper {
+    border-bottom: 1px solid rgba(34, 90, 89, 0.2);
+    padding-bottom: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    position: relative;
+    margin-top: 20px;
   }
   .feed_item_content {
     margin-left: 0;
